@@ -1,5 +1,3 @@
-console.log("app.js loaded");
-
 // Don’t fetch http://puzzle.mead.io/puzzle from the browser.
 //Instead, fetch it from your Express backend, then pass the result to the browser.
 fetch("/puzzle")
