@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+.body-style {
+    @apply text-[#333333] font-[arial] max-w-[650px] mx-auto px-[16px] flex flex-col min-h-[100vh];
+}
+.main-content{
+    flex-grow: 1;
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="icon" href="https://icons.veryicon.com/png/o/miscellaneous/common-icons-17/weather-89.png">
+    <link href="/output.css" rel="stylesheet">
+
+
+</head>
+<body class="body-style">
+    <div class="main-content">
+        {{> header}}
+    <form action="">
+        <input class="p-[8px] border border-[#cccccc]" type="text" placeholder="Enter a Location">
+        <button class="cursor-pointer border border-[#cccccc] bg-[#888888] text-white p-[8px]">Search</button>
+    </form>
+    <p id="m1"></p>
+    <p id="m2"></p>
+    </div>
+    {{>footer}}
+    <script src="/js/app.js"></script>
+</body>
+</html>
