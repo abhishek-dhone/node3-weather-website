@@ -23,7 +23,8 @@ const search = document.querySelector("input");
 document.querySelector("form").addEventListener("submit", (e) => {
   e.preventDefault()
   m1.textContent = 'Loading...'
-  fetch(`http://localhost:3000/weather?address=${search.value}`)
+  fetch(`fetch('/weather?address=' + location)
+${search.value}`)
     .then((response) => response.json())
     .then((data) => {
         m1.textContent = data.location.Address
